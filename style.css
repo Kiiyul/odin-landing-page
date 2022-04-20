@@ -43,8 +43,15 @@ img{
 }
 
 .info{
-    width:200px;
+    width: 200px;
     height:auto;
+}
+
+.images{
+    display:inline-block;
+    width: auto;
+    height: 130px;
+    padding:0px;
 }
 
 h1{
@@ -86,4 +93,25 @@ button{
     padding: 7px 15px;
     font-size: 18px;
     max-width: 100px;
+}
+
+.benefits{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding:50px;
+}
+
+.images{
+    border-color: blue;
+    border-width: 3px;
+    border-style: solid;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.text{
+    text-align: center;
+    padding: 5px
+   
 }
