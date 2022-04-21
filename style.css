@@ -48,15 +48,26 @@ img{
 }
 
 .images{
-    display:inline-block;
-    width: auto;
-    height: 130px;
-    padding:0px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-color: blue;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
 }
 
 h1{
     font-size: 48px;
     margin: 0px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding-top: 20px;
 }
 
 p{
@@ -99,19 +110,11 @@ button{
     display: flex;
     justify-content: center;
     gap: 40px;
-    padding:50px;
-}
-
-.images{
-    border-color: blue;
-    border-width: 3px;
-    border-style: solid;
-    max-width: 200px;
-    max-height: 200px;
+    padding:30px;
 }
 
 .text{
     text-align: center;
-    padding: 5px
-   
+    padding: 5px;
+   font-size: 18px;
 }
