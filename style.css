@@ -172,3 +172,12 @@ p.name{
 .call-left h3{
     margin: 0px;
 }
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
