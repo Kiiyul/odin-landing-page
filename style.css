@@ -17,14 +17,15 @@ body{
     gap:16px;
     align-items: center;
     font-size: 18px;
+    margin-right: -140px;
     
 }
 
 .logo-links{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 30px;
-    margin-left: -20px;
+    margin-left: -170px;
 }
 
 img{
@@ -86,7 +87,7 @@ ul{
 
 .information{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     max-height: 300px;
 }
 
@@ -103,7 +104,11 @@ button{
     border-radius: 9px;
     padding: 7px 15px;
     font-size: 18px;
-    max-width: 100px;
+    width: 130px;
+}
+
+.button2{
+    border-color: white;
 }
 
 .benefits{
@@ -117,4 +122,53 @@ button{
     text-align: center;
     padding: 5px;
    font-size: 18px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    font-style: italic;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.testimonial{
+    max-width: 700px;
+}
+
+p.test{
+    font-size: 36px;
+}
+
+p.name{
+    text-align: end;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    padding:50px;
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 50px;
+    border-radius: 10px;
+    width: 1300px;
+}
+
+.call-left{
+    color: white;
+}
+
+.call-left h3{
+    margin: 0px;
 }
